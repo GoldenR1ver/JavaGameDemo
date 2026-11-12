@@ -1,0 +1,50 @@
+# ---- Build output ----
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ---- IDE / editor ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+nbproject/private/
+
+# ---- Maven wrapper (optional) ----
+.mvn/
+mvnw
+mvnw.cmd
+
+# ---- Runtime data ----
+recordings/
+logs/
+*.log
+
+# ---- Local libraries / natives (Maven resolves these) ----
+lib/
+*.dll
+*.so
+*.dylib
+
+# ---- OS / misc ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
